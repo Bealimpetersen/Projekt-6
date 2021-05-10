@@ -152,7 +152,7 @@
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
-	padding: 15px;
+	padding: 10px 30px 10px 30px;
 	border-radius: 20px;
 }
 
@@ -160,10 +160,27 @@
 	border: solid #0D76BD;
 	color: #0D76BD;
 	background-color: #fff;
+}
 
 .btn2 {
 	margin: 30px;
+	border: solid #0D76BD;
+	color: #0D76BD;
+	background-color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+ 	padding: 10px 30px 10px 30px;
+	border-radius: 20px;
 }
+
+.btn2:hover {
+	border: solid #0D76BD;
+	color: #0D76BD;
+	background-color: #000;
+}
+
 
 .btn3 {
 	margin: 30px;
