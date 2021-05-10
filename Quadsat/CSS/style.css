@@ -79,7 +79,7 @@
 	width: 100px; 
 	margin-bottom: 10px; 
 	background-color: #0D76BD;
-	border-color: #58585a;
+	border: solid #000000;
 	margin: 10px;
 }
 
@@ -88,9 +88,28 @@
 	width: 100px; 
 	margin-bottom: 10px; 
 	background-color: #58585A;
-	border-color: #58585a;
+	border: solid #000000;
 	margin: 10px;
 }
+
+.kasse3 { 
+	height: 100px; 
+	width: 100px; 
+	margin-bottom: 10px; 
+	background-color: #ffffff;
+	border: solid #000000;
+	margin: 10px;
+}
+
+.kasse4 { 
+	height: 100px; 
+	width: 100px; 
+	margin-bottom: 10px; 
+	background-color: #000000;
+	border: solid #000000;
+	margin: 10px;
+}
+
 
 .hex {
 	margin: 10px;
