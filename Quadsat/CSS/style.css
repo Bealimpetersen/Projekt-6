@@ -204,3 +204,30 @@
 .btn3 {
 	margin: 30px;
 }
+
+#snippet {
+	margin: 30px;
+}
+
+.snippetwrapper {
+	display: flex;
+}
+
+.formwrapper {
+	padding: 30px;
+	display: flex;
+	border-radius: 15px;
+}
+
+input {
+	border-radius: 8px;
+	margin-right: 20px;
+	padding: 10px 90px 10px 30px;
+}
+
+.message {
+	padding-left: 30px;
+	border-radius: 15px;
+
+}
+
