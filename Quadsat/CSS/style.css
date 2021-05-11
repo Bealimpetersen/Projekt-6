@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Oswald', Lato; 
+	font-family: 'Oswald', Lato;
+	scroll-behavior: smooth;
 }
 
 .logo {
@@ -20,10 +21,10 @@
 
 .wrapper .sidebar {
 	position: fixed;
-	width: 200px; 
+	width: 200px;
 	height: 100%;
 	background: #0D76BD;
-	padding: 30px; 
+	padding: 30px;
 }
 
 .wrapper .sidebar ul li {
@@ -51,7 +52,7 @@
 
 .wrapper .main-content {
 	width: 100%;
-	margin-left: 200px; 
+	margin-left: 200px;
 }
 
 .wrapper .main-content .header h1 {
@@ -69,42 +70,42 @@
 }
 
 .wrapper2 {
-	display: flex; 
-	flex-direction: row; 
-	
+	display: flex;
+	flex-direction: row;
+
 }
 
-.kasse1 { 
-	height: 100px; 
-	width: 100px; 
-	margin-bottom: 10px; 
+.kasse1 {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
 	background-color: #0D76BD;
 	border: solid #000000;
 	margin: 10px;
 }
 
-.kasse2 { 
-	height: 100px; 
-	width: 100px; 
-	margin-bottom: 10px; 
+.kasse2 {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
 	background-color: #58585A;
 	border: solid #000000;
 	margin: 10px;
 }
 
-.kasse3 { 
-	height: 100px; 
-	width: 100px; 
-	margin-bottom: 10px; 
+.kasse3 {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
 	background-color: #ffffff;
 	border: solid #000000;
 	margin: 10px;
 }
 
-.kasse4 { 
-	height: 100px; 
-	width: 100px; 
-	margin-bottom: 10px; 
+.kasse4 {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
 	background-color: #000000;
 	border: solid #000000;
 	margin: 10px;
@@ -138,7 +139,7 @@
 }
 
 .logopicture {
-	width: 80%; 
+	width: 80%;
 }
 
 .typograficontainer {
@@ -230,4 +231,3 @@ input {
 	border-radius: 15px;
 
 }
-
