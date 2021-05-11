@@ -43,7 +43,11 @@
 }
 
 .wrapper .sidebar ul li:hover {
-	background: #58585A;
+	background: #A5C8E0;
+}
+
+.wrapper .sidebar ul li:active {
+	background: #A5C8E0;
 }
 
 .wrapper .sidebar ul li:hover a{
@@ -107,6 +111,15 @@
 	width: 100px;
 	margin-bottom: 10px;
 	background-color: #000000;
+	border: solid #000000;
+	margin: 10px;
+}
+
+.kasse5 {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+	background-color: #A5C8E0;
 	border: solid #000000;
 	margin: 10px;
 }
