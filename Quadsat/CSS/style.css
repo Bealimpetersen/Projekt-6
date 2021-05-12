@@ -76,7 +76,6 @@
 .wrapper2 {
 	display: flex;
 	flex-direction: row;
-
 }
 
 .kasse1 {
@@ -85,7 +84,7 @@
 	margin-bottom: 10px;
 	background-color: #0D76BD;
 	border: solid #000000;
-	margin: 10px;
+	margin: 20px;
 }
 
 .kasse2 {
@@ -94,7 +93,7 @@
 	margin-bottom: 10px;
 	background-color: #58585A;
 	border: solid #000000;
-	margin: 10px;
+	margin: 20px;
 }
 
 .kasse3 {
@@ -103,7 +102,7 @@
 	margin-bottom: 10px;
 	background-color: #ffffff;
 	border: solid #000000;
-	margin: 10px;
+	margin: 20px;
 }
 
 .kasse4 {
@@ -112,7 +111,7 @@
 	margin-bottom: 10px;
 	background-color: #000000;
 	border: solid #000000;
-	margin: 10px;
+	margin: 20px;
 }
 
 .kasse5 {
@@ -121,21 +120,21 @@
 	margin-bottom: 10px;
 	background-color: #A5C8E0;
 	border: solid #000000;
-	margin: 10px;
+	margin: 20px;
 }
 
 
 .hex {
-	margin: 10px;
+	margin: 20px;
 }
 
 
 .rgb {
-	margin: 10px;
+	margin: 20px;
 }
 
 .cmyk {
-	margin: 10px;
+	margin: 20px;
 }
 
 .textcontainer {
@@ -242,5 +241,4 @@ input {
 .message {
 	padding-left: 30px;
 	border-radius: 15px;
-
 }
