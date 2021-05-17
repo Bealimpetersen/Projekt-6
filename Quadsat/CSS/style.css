@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Oswald', Lato;
+	font-family: 'Oswals', Lato;
 	scroll-behavior: smooth;
 }
 
@@ -148,6 +148,7 @@
 
 .anvendes {
 	font-weight: bold;
+	font-family: 'Oswald';
 }
 
 .logopicture {
@@ -160,6 +161,7 @@
 }
 
 .typograficontainer h1 {
+	font-family: 'Oswald';
 	font-size: 32px;
 	margin-bottom: 20px;
     margin-top: 20px;
@@ -173,6 +175,20 @@
     margin-top: 20px;
     margin-right: 150px;
     padding-left: 30px;
+    font-weight: 400;
+}
+
+.typograficontainer h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 150px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.para {
+	font-family: 'Oswald';
 }
 
 .btn1 {
