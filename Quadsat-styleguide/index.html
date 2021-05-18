@@ -21,10 +21,9 @@
                     <li><a href="#typografi">Typografi</a></li>
                     <li><a href="#buttons">Knapper</a></li>
                     <li><a href="#inputs">Inputs/Formler</a></li>
-                    <li><a href="#figur">Figur</a></li>
-     				<li><a href="#swipe">Swipe</a></li>
-     				<li><a href="#grafik">Grafik</a></li>
+                    <li><a href="#swipe">Breadcrumps</a></li>
      				<li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#figur">Figur</a></li>
                 </ul>
             </nav>
     	</div>
@@ -92,6 +91,8 @@
     				</div>
     			</section>
 
+                <hr>
+
     			<!-- Logo sektion -->
     			<section class="logos" id="logos">
     				<span class="title"><h2>Logo</h2></span>
@@ -105,6 +106,8 @@
                         </p>
     				</div>
     			</section>
+
+                <hr>
 
     			<!-- Typografi sektion -->
     			<section class="Typografi" id="typografi">
@@ -147,32 +150,120 @@
     				</div>
     			</section>
 
+                <hr>
+
     			<!-- Knapper sektion -->
     			<section class="Knapper" id="buttons">
     				<span class="title"><h2>Knapper</h2></span>
-    				<div class="btnwrapper">
-    					<button class="btn1">Knap 1</button>
-    					<button class="btn2">Knap 2</button>
-    					<button class="btn3">Knap 3</button>
+
+                    <div class="btnwrapper">
+                        <div class="btn1-wrap">
+                            <button class="btn1">Knap 1</button>
+                            <p>Knap 1 Snippet</p>
+                            <textarea id="snippet" name="snippet" rows="5" cols="40">HTML:
+<button class="btn1">Knap 1</button>
+
+CSS: 
+
+.btn1 {
+    margin: 30px;
+    border: #0D76BD;
+    color: #fff;
+    background-color: #0D76BD;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.btn1:hover {
+    border: solid #0D76BD;
+    color: #0D76BD;
+    background-color: #fff;
+}
+                            </textarea>
+                        </div>
+
+                        <div class="btn2-wrap">
+                            <button class="btn2">Knap 2</button>
+                            <p>Knap 2 Snippet</p>
+                            <textarea id="snippet" name="snippet" rows="5" cols="40">HTML: 
+<button class="btn2">Knap 2</button>
+
+CSS: 
+
+.btn2 {
+    margin: 30px;
+    border: solid #0D76BD;
+    color: #0D76BD;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.btn2:hover {
+    border: solid #0D76BD;
+    color: #0D76BD;
+    background-color: #000;
+}
+
+                            </textarea>
+                        </div>
+    
+                        <div class="btn3-wrap">
+                                <button class="btn3">Knap 3</button>
+                                <p>Knap 3 Snippet</p> 
+                                <textarea id="snippet" name="snippet" rows="5" cols="40">HTML
+<button class="btn3">Knap 3</button>
+
+CSS: 
+
+.btn3 {
+    margin: 30px;
+    border: #58585A;
+    color: #fff;
+    background-color: #58585A;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+.btn3:hover {
+    border: solid #58585A;
+    color: #ffffff;
+    background-color: #000;
+}
+
+.btn3 {
+    margin: 30px;
+}
+                                </textarea>
+                        </div>
                     </div>
 
-                    <div class="snippetwrapper">
-                        <p>Knap 1 Snippet</p>
-                        <p>Knap 2 Snippet</p>
-                        <p>Knap 3 Snippet</p>
-                    </div>
-
-                    <div class="snippetwrapper2">
-                        <textarea id="snippet" name="snippet" rows="2" cols="30"><button class="btn1">Knap 1</button></textarea>
-                        <textarea id="snippet" name="snippet" rows="2" cols="30"><button class="btn2">Knap 2</button></textarea>
-                        <textarea id="snippet" name="snippet" rows="2" cols="30"><button class="btn3">Knap 3</button></textarea>
-                    </div>
-
+                                         
+                        
     				<div class="textcontainer">
     					<p class="anvendes">Skal anvendes når:</p>
-    					<p>Logo... </p>
+    					<p>Den blå knap 1, anvendes som call to action knap. 
+                            <br>
+                            Den hvide knap 2, anvendes som "læs mere knap", hvor den er placeret midt på siden, med den hvide baggrund. 
+                            <br>
+                            Den grå knap 3, anvendes som læs mere knap, ved jobansøgninger. 
+                        </p>
     				</div>
     			</section>
+
+                <hr>
 
                 <!-- Inputs/Formel sektion -->
                 <section class="inputs" id="inputs">
@@ -194,21 +285,182 @@
                     <textarea rows="4" cols="200" name="comment" form="usrform">Your message here</textarea>
                     </div>
 
+                        <br>
+                        <p>Kode snippet</p>
+                        <textarea id="snippet" name="snippet" rows="5" cols="60">HTML: 
+<div class="formwrapper">
+<form>
+    <input type="text" name="name" placeholder="Your name">
+</form>
+<form>
+    <input type="email" name="email" placeholder="Your email adress">
+</form>
+<form>
+    <input type="tel" name="number" placeholder="Your phone number">
+</form>
+</div>
+
+<div class="message">
+<textarea rows="4" cols="200" name="comment" form="usrform">Your message here < /textarea>
+</div>
+
+CSS: 
+.formwrapper {
+    padding: 30px;
+    display: flex;
+    border-radius: 15px;
+}
+
+input {
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 10px 90px 10px 30px;
+}
+
+.message {
+    padding-left: 30px;
+    border-radius: 15px;
+}
+
+                        </textarea>
 
                     <div class="textcontainer">
                         <p class="anvendes">Skal anvendes når:</p>
-                        <p>Logo... </p>
+                        <p>Ovenstående formel, anvendes hvis brugeren har behov for at komme i kontakt med QuadSAT - Når der efterspørges en demo</p>
                     </div>
 
-    			<!-- Figur sektion -->
-    			<section class="Figur" id="figur"></section>
-
+                    <hr>
 
                 <!-- Breadcrumps sektion -->
-    			<section class="Breadcrumps" id="breadcrumps"></section>
+    			<section class="Breadcrumps" id="breadcrumps">
+                    <span class="title"><h2>Breadcrumps</h2></span>
+
+                    <img src="IMG/breadcrumps.png" alt="breadcrumps">
+                    <img src="IMG/breadcrumps1.png" alt="breadcrumps">
+            
+                <p>Kode snippet</p>
+                <textarea id="snippet" name="snippet" rows="5" cols="40">HTML:                    
+<img src="IMG/breadcrumps.png" alt="breadcrumps">
+<img src="IMG/breadcrumps1.png" alt="breadcrumps">
+                    
+                </textarea>
+
+                <div class="textcontainer">
+                        <p class="anvendes">Skal anvendes når:</p>
+                        <p>Breadcrumps anvendes når man klikker ind i de forskellige menuer, således at brugeren kan orientere sig ift. hvor op siden de befinder sig.</p>
+                    </div>
+                </section>
+
+                    <hr>
 
                 <!-- Navigation sektion -->
     			<section class="Navigation" id="navigation"></section>
+                    <span class="title"><h2>Navigation</h2></span>
+                        <img class="navpic2" src="IMG/nav2.png" alt="navigation">
+                        <img class="navpic" src="IMG/nav.png" alt="navigation">
+                  
+                    <p>Kode snippet</p>
+                <textarea id="snippet" name="snippet" rows="5" cols="40">HTML
+<div class="wrapper">
+            <div class="sidebar">
+            <div class="logo">
+                <a href="index.html"><img class="logo" src="IMG/logo-blue.png" alt="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#color">Farver</a></li>
+                    <li><a href="#logos">Logo</a></li>
+                    <li><a href="#typografi">Typografi</a></li>
+                    <li><a href="#buttons">Knapper</a></li>
+                    <li><a href="#inputs">Inputs/Formler</a></li>
+                    <li><a href="#swipe">Breadcrumps</a></li>
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#figur">Figur</a></li>
+                </ul>
+            </nav>
+        </div>
+
+CSS: 
+.wrappper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #0D76BD;
+    padding: 30px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,255,0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: #ffffff;
+    display: block;
+}
+
+.wrapper .sidebar ul li a {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background: #A5C8E0;
+}
+
+.wrapper .sidebar ul li:active {
+    background: #A5C8E0;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+.wrapper .main-content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main-content .header h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+    background: #fff;
+    }
+
+.wrapper .main-content p {
+    padding-left: 30px;
+}
+<img src="IMG/nav.png" alt="navigation">
+                </textarea>
+
+
+                <div class="textcontainer">
+                        <p class="anvendes">Skal anvendes når:</p>
+                        <p>Navigation er denne menu, der findes på den pågældende side - Den anvendes ved denne styleguide og ved endelige prototype. (Med andre punkter)
+                            <br>
+                        Den anden menu, er fra QuadSATS egen hjemmeside - anvendes øverst oppe. </p>
+                    </div>
+
+                <!-- Figur sektion -->
+                <section class="Figur" id="figur"></section>
+                    <span class="title"><h2>Figur</h2></span>
+
+                    <p>Kode snippet</p>
+                <textarea id="snippet" name="snippet" rows="5" cols="40">HTML: 
+                    
+                </textarea>
+
+                    <div class="textcontainer">
+                        <p class="anvendes">Skal anvendes når:</p>
+                        <p>skal anvendes ..</p>
+                    </div>
+
 
 
     		</div>
