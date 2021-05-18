@@ -1,0 +1,206 @@
+*{
+  scroll-behavior: smooth;
+  }
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Oswald', sans-serif;
+}
+
+/* --------------Navigation-left-------------- */
+
+.navbar {
+  position: fixed;
+  background-color: rgb(13,118,189);
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  text-decoration: none;
+  color:white;
+  font-size: 1.7rem;
+}
+
+
+.nav-item:hover {
+  background-color: #a5c8e0;
+}
+
+li .nav-item{
+  height: 100%;
+  width: 100%;
+}
+.icon {
+  background-image: url("../img/1024px-Cross_icon_(white).svg.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* --------------heroimage-------------- */
+
+
+.hero-img{
+  height: 100vh;
+  background-image:url("../img/hero.png");
+  width:100%;
+  background-size: cover;
+}
+.burgerbar{
+  background-image:url("../img/QuadSAT-logo.png");
+  background-size: cover;
+  height: 60px;
+  width: 130px;
+  float: right;
+  margin: 10px;
+}
+.logo{
+  background-image:url("../img/hamburger_menu-512.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin: 5px;
+}
+
+/* --------------main-------------- */
+main {
+  margin-left: 7rem;
+  padding: 0.4rem;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item{
+  width: 48%;
+  height: 500px;
+  background-color: pink;
+  margin: 5px;
+}
+.textbox{
+  background-color: lightgray;
+}
+
+.picture{
+  background-color: gray;
+}
+/* --------------footer-------------- */
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(88,88,90);
+}
+
+/* --------------mobile-------------- */
+.mobile-text h1{
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height:7rem;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    margin: 0 8 0 0;
+
+  }
+  .nav-link {
+    justify-content: center;
+    width: 100%;
+
+  }
+  main {
+    margin: 0;
+
+  }
+  .nav-item {
+    width: 100%;
+    height: 5rem;
+    padding: 16px 0;
+
+  }
+  .top, .bottom{
+    display: none;
+  }
+  .icon{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .hero-img{
+    background-image: url("../img/Drone-with-no-background-min-768x330.png");
+    height: 220px;
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+
+  }
+  .web-top{
+    display:none;
+  }
+  .burgerbar{
+    float: left;
+  }
+  .container{
+    display:column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item{
+    width: 100%;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 7rem;
+    height: 100vh;
+  }
+  .mobile-text{
+    display:none;
+  }
+  .mobile-top{
+    display: none;
+  }
+
+}
