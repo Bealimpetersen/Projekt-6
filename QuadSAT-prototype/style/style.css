@@ -66,6 +66,55 @@ li .nav-item{
   margin-bottom: 15px;
 }
 
+/* --------------burgermenu------------- */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(13,118,189);
+  margin-left:60%;
+  width: 40%;
+  z-index: 1;
+  position: absolute;
+}
+
+.topnav #myLinks {
+  display: none;
+  font-family: Oswald;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.burger-icon {
+  background: white;
+  display: block;
+  position: absolute;
+  font-size: 160%;
+  right: 0;
+  top: 0;
+  margin: 2%;
+}
+
+.topnav a:hover {
+  background-color: #a5c8e0;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: white;
+}
+
+.logo{
+  height: 30px;
+  width: 65px;
+  padding: 0;
+}
+
 /* --------------heroimage-------------- */
 
 
@@ -75,7 +124,7 @@ li .nav-item{
   width:100%;
   background-size: cover;
 }
-.burgerbar{
+/*.burgerbar{
   background-image:url("../img/hamburger_menu-512.png");
   background-size: cover;
   position: absolute;
@@ -84,17 +133,7 @@ li .nav-item{
   float: right;
   margin-top: 1%;
   margin-left: 83%;
-}
-.logo{
-  background-image:url("../img/QuadSAT-logo.png");
-  background-size: cover;
-  position: absolute;
-  height: 30px;
-  width: 65px;
-  float: right;
-  margin-top: 3%;
-  margin-left: 63%;
-}
+}*/
 
 /* --------------main-------------- */
 main {
@@ -223,19 +262,29 @@ footer{
     display: none;
   }
 
-  .burgerbar{
+  /*.burgerbar{
     height: 70px;
     width: 70px;
     float: right;
     margin-top: 1.2%;
     margin-left: 90%;
-  }
-  .logo{
-    height: 50px;
-    width: 108.35px;
-    float: right;
-    margin-top: 1.5%;
+  }*/
+
+
+  /* --------------burgermenu------------- */
+  .topnav {
+    width: 25%;
     margin-left: 75%;
+  }
+
+  .topnav a.burger-icon {
+    font-size: 160%;
+    margin-top: 5%;
+  }
+
+  .logo{
+    height: 40px;
+    width: 86.68px;
   }
 
   /*about*/
@@ -258,18 +307,20 @@ footer{
 }
 
 @media only screen and (min-width: 900px) {
-  .burgerbar{
-    height: 100px;
-    width: 100px;
-    float: right;
-    margin-top: 1.2%;
-    margin-left: 90%;
+
+  /* --------------burgermenu------------- */
+  .topnav {
+    width: 20%;
+    margin-left: 80%;
   }
+
+  .topnav a.burger-icon {
+    font-size: 200%;
+    margin-top: 5%;
+  }
+
   .logo{
     height: 60px;
     width: 130px;
-    float: right;
-    margin-top: 1.5%;
-    margin-left: 80%;
   }
 }
