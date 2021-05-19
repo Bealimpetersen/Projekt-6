@@ -76,20 +76,24 @@ li .nav-item{
   background-size: cover;
 }
 .burgerbar{
-  background-image:url("../img/QuadSAT-logo.png");
-  background-size: cover;
-  height: 60px;
-  width: 130px;
-  float: right;
-  margin: 10px;
-}
-.logo{
   background-image:url("../img/hamburger_menu-512.png");
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
   float: right;
-  margin: 5px;
+  margin-top: 1%;
+  margin-left: 83%;
+}
+.logo{
+  background-image:url("../img/QuadSAT-logo.png");
+  background-size: cover;
+  position: absolute;
+  height: 30px;
+  width: 65px;
+  float: right;
+  margin-top: 3%;
+  margin-left: 63%;
 }
 
 /* --------------main-------------- */
@@ -116,6 +120,21 @@ main {
 .picture{
   background-color: gray;
 }
+
+/*about*/
+.about {
+  margin: 10%;
+}
+
+.about-img {
+  width: 100%;
+}
+
+/*contact*/
+.contact {
+  margin: 10%;
+}
+
 /* --------------footer-------------- */
 footer{
   width: 100%;
@@ -128,7 +147,6 @@ footer{
   text-align: center;
   margin-top: 80px;
 }
-
 
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -145,8 +163,8 @@ footer{
   .nav-link {
     justify-content: center;
     width: 100%;
-
   }
+
   main {
     margin: 0;
 
@@ -175,9 +193,7 @@ footer{
   .web-top{
     display:none;
   }
-  .burgerbar{
-    float: left;
-  }
+
   .container{
     display:column;
     flex-direction: row;
@@ -186,6 +202,10 @@ footer{
   }
   .item{
     width: 100%;
+  }
+
+  .hide-on-mobile {
+    display: none;
   }
 }
 
@@ -203,4 +223,53 @@ footer{
     display: none;
   }
 
+  .burgerbar{
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: 1.2%;
+    margin-left: 90%;
+  }
+  .logo{
+    height: 50px;
+    width: 108.35px;
+    float: right;
+    margin-top: 1.5%;
+    margin-left: 75%;
+  }
+
+  /*about*/
+  .about {
+    margin-top: 10%;
+  }
+
+  .about-text {
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+  }
+
+  .about-img {
+    width: 55%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .burgerbar{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 1.2%;
+    margin-left: 90%;
+  }
+  .logo{
+    height: 60px;
+    width: 130px;
+    float: right;
+    margin-top: 1.5%;
+    margin-left: 80%;
+  }
 }
