@@ -17,7 +17,7 @@ function myFunction() {
 
 
 
-// Beas JS // 
+// Beas JS //
 
 function validate(){
   let name = document.getElementById("name").value;
@@ -25,9 +25,9 @@ function validate(){
   let email = document.getElementById("email").value;
   let message = document.getElementById("message").value;
   let error_message = document.getElementById("error_message");
-  
+
   error_message.style.padding = "10px";
-  
+
   let text;
   if(name.length < 5){
     text = "Please Enter valid Name";
@@ -39,7 +39,7 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  
+
   if(email.indexOf("@") == -1 || email.length < 6){
     text = "Please Enter valid Email";
     error_message.innerHTML = text;
@@ -54,3 +54,25 @@ function validate(){
   return true;
 }
 
+
+
+// Signe JS //
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+  var reveals = document.querySelectorAll('.reveal');
+
+  for(var i = 0; i < reveals.length; i++){
+
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 150;
+
+    if(revealtop < windowheight - revealpoint){
+      reveals[i].classList.add('active2');
+    }
+    else{
+      reveals[i].classList.remove('active2');
+    }
+  }
+}
