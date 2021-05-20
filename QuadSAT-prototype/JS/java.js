@@ -1,24 +1,3 @@
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-// Beas JS // 
-
 function validate(){
   let name = document.getElementById("name").value;
   let company = document.getElementById("company").value;
@@ -34,8 +13,8 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  if(company.length < 3){
-    text = "Please Enter Correct Company";
+  if(company.length < 10){
+    text = "Please Enter Correct Subject";
     error_message.innerHTML = text;
     return false;
   }
