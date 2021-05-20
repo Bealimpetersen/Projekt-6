@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5{
   font-family: 'Oswald', sans-serif;
 }
 
+p {
+  line-height: 22px;
+}
 /* --------------Navigation-left-------------- */
 
 .navbar {
@@ -149,15 +152,25 @@ main {
 .item{
   width: 48%;
   height: 500px;
-  background-color: pink;
   margin: 5px;
 }
-.textbox{
-  background-color: lightgray;
-}
+
 
 .picture{
   background-color: gray;
+}
+
+.one, .two {
+  text-align: center;
+}
+
+.one p{
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+.textbox h2{
+  margin-top: 80px;
 }
 
 /*about*/
@@ -246,7 +259,7 @@ main {
   padding: 5%;
   background-color: rgb(13,118,189, 0.5);
   border-radius: 20px;
-  
+
 }
 
 a {
