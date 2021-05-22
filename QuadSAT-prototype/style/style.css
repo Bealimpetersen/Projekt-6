@@ -174,10 +174,19 @@ main {
   overflow: scroll;
 }
 
+.picture-three{
+  background-image:url("../img/drone.jpg");
+  background-size: cover;
+}
 
+.picture-six{
+  background-image:url("../img/testing.jpg");
+  background-size: cover;
+}
 
-.picture{
-  background-color: gray;
+.picture-seven{
+  background-image:url("../img/software.png");
+  background-size: cover;
 }
 
 .one, .two {
