@@ -97,6 +97,7 @@ li .nav-item{
   width: 40%;
   z-index: 1;
   position: absolute;
+  position: fixed;
 }
 
 .topnav #myLinks {
@@ -458,6 +459,7 @@ footer{
 
   /* --------------burgermenu------------- */
   .topnav {
+    background-color: rgb(13,118,189);
     width: 25%;
     margin-left: 75%;
   }
