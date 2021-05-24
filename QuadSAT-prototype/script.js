@@ -76,3 +76,24 @@ function reveal(){
     }
   }
 }
+// Najas JS //
+//Hente knappen
+var toTopButton = document.getElementById("toTopButton");
+
+//Når brugeren scroller 20px ned fra toppen, vis knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrolltop > 10 || document.documentElement.scrolltop > 10) {
+    toTopButton.style.display = "none";
+  }
+  else {
+    toTopButton.style.display = "block";
+    }
+  }
+
+//Når brugeren trykker på knappen. scroll til toppen af siden
+function topFunction() {
+  document.body.scrollTop = 0; //For Safari
+  document.documentElement.scrollTop = 0; //For Chrome, Firefox, Internet Explorer og Opera
+  }
