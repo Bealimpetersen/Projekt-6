@@ -279,23 +279,6 @@ hr {
 	display: flex;
 }
 
-.formwrapper {
-	padding: 30px;
-	display: flex;
-	border-radius: 5px;
-}
-
-input {
-	border-radius: 8px;
-	margin-right: 20px;
-	padding: 10px 90px 10px 30px;
-}
-
-.message {
-	padding-left: 30px;
-	border-radius: 15px;
-}
-
 .navpic {
 	width: 80%;
 	margin-bottom: 30px;
@@ -304,4 +287,66 @@ input {
 .navpic2 {
 	height: 200px;
 	margin-bottom: 30px;
+}
+
+
+.contact {
+  margin: 10%;
+}
+
+.contact_wrapper{
+  top: 50%;
+  left: 50%;
+  max-width: 350px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.contact_wrapper h2{
+  text-align: left;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.contact_wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.contact_wrapper .input_field input[type="text"],
+.contact_wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact_wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.contact_wrapper .btn_contact input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #0E75BD;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
