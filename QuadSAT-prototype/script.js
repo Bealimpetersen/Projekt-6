@@ -50,7 +50,7 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  alert("Form Submitted Successfully!");
+  alert("Din besked er sendt - vi kontakter dig indenfor 5 hverdage!");
   return true;
 }
 
