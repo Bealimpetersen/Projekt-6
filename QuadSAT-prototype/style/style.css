@@ -45,7 +45,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 6rem;
+  height: 4rem;
   text-decoration: none;
   color:white;
   font-size: 1.7rem;
@@ -65,8 +65,8 @@ li .nav-item{
 .icon {
   background-image: url("../img/1024px-Cross_icon_(white).svg.png");
   background-size: cover;
-  height: 70px;
-  width: 70px;
+  height: 55px;
+  width: 55px;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -89,6 +89,10 @@ li .nav-item{
 .icon-four{
   background-image: url("../img/icon4.png");
 }
+
+
+
+
 /* --------------burgermenu------------- */
 .topnav {
   overflow: hidden;

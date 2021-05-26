@@ -2,13 +2,17 @@
 // Emma JavaScript//
 
 function burgermenu() {
-  var x = document.getElementById("menupunkter");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+//her erklæres variablen og tildeles en værdi //
+  var myLinks = document.getElementById("menupunkter");
+// === betyder lig med og samme type //
+  if (myLinks.style.display === "block") {
+    myLinks.style.display = "none";
   } else {
-    x.style.display = "block";
+    myLinks.style.display = "block";
   }
 }
+
+[ array ]
 
 
 
