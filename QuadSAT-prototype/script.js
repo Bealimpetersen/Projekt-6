@@ -1,15 +1,14 @@
-function myFunction() {
-  var x = document.getElementById("myLinks");
+
+// Emma JavaScript//
+
+function burgermenu() {
+  var x = document.getElementById("menupunkter");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
   }
 }
-
-
-
-
 
 
 

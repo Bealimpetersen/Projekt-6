@@ -100,7 +100,7 @@ li .nav-item{
   position: fixed;
 }
 
-.topnav #myLinks {
+.topnav #menupunkter {
   display: none;
   font-family: Oswald;
 }
@@ -144,7 +144,7 @@ li .nav-item{
 
 .hero-img{
   height: 100vh;
-  background-image:url("../img/hero.png");
+  background-image:url("../img/hero.jpg");
   width:100%;
   background-size: cover;
 }
@@ -188,7 +188,7 @@ main {
 }
 
 .picture-seven{
-  background-image:url("../img/software.png");
+  background-image:url("../img/software.jpg");
   background-size: cover;
 }
 
