@@ -4,9 +4,9 @@ function validate(){
   let email = document.getElementById("email").value;
   let message = document.getElementById("message").value;
   let error_message = document.getElementById("error_message");
-  
+
   error_message.style.padding = "10px";
-  
+
   let text;
   if(name.length < 5){
     text = "Please Enter valid Name";
@@ -18,7 +18,7 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  
+
   if(email.indexOf("@") == -1 || email.length < 6){
     text = "Please Enter valid Email";
     error_message.innerHTML = text;
@@ -29,7 +29,6 @@ function validate(){
     error_message.innerHTML = text;
     return false;
   }
-  alert("Form Submitted Successfully!");
+  alert("Din besked er sendt - vi kontakter dig indenfor 5 hverdage!");
   return true;
 }
-

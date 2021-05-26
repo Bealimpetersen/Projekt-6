@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
   }
 
@@ -192,6 +192,11 @@ main {
   background-size: cover;
 }
 
+video{
+  height: 100%;
+  width: 100%;
+}
+
 .one, .two {
   text-align: center;
 }
@@ -205,7 +210,7 @@ main {
   margin-top: 80px;
 }
 .reveal{
-  position: relativ;
+  position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: all 2s ease;
@@ -342,6 +347,26 @@ footer{
     margin-left: 30%;
 }
 
+#toTopButton {
+  font-family: 'Oswald', sans-serif;
+  position: fixed; /* Når der scrolles på siden, bliver knappen siddende hvor den er */
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; /* Sikrer at knappen ikke bliver overlappet */
+  border: none; /* Fjerner border */
+  outline: none; /* Fjerner outline */
+  background-color: #0d76bd;
+  color: #FFFFFF; /* Neutral tekst farve */
+  cursor: pointer; /* Tilføjer en mouse pointer til hover funktion */
+  padding: 15px;
+  border-radius: 10px; /* Tilføjer runde hjørner */
+  font-size: 18px;
+}
+
+#toTopButton:hover {
+  background-color: #58585a;
+}
+
 
 /* --------------mobile-------------- */
 .mobile-text h1{
@@ -359,7 +384,7 @@ footer{
 
   .navbar-nav {
     flex-direction: row;
-    margin: 0 8 0 0;
+    margin: 0px 8px 0px 0px;
 
   }
   .nav-link {
@@ -397,7 +422,6 @@ footer{
   }
 
   .container{
-    display:column;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

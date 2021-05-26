@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,6 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <!---navigation -->
   <nav class="navbar">
     <ul class="navbar-nav">
       <li class="top nav-item">
@@ -37,13 +37,7 @@
       </li>
     </ul>
   </nav>
-  <!---Hero-img, burgerbar, logo -->
-  <div class="mobile-top">
-    <!--     <div class="logo"></div>
-    <div class="burgerbar"></div> -->
-  </div>
-
-  <!-- Top Navigation Menu -->
+  <div class="mobile-top"></div>
   <div class="topnav">
     <a href="index.html" class="active"> <img src="img/QuadSAT-logo.png" alt="logo" class="logo"> </a>
     <div id="menupunkter">
@@ -55,14 +49,12 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
-
+  <button onclick="topFunction();" type="button" id="toTopButton" title="Go to Top">To the Top</button>
   <div class="mobile-text">
     <br><br><h1>About</h1>
     <hr>
   </div>
-
   <div id="start"></div>
-
   <main>
     <div class="about">
       <h1 style="text-align: center;" class="hide-on-mobile">About</h1>
@@ -74,31 +66,24 @@
       <img class="about-img" src="img/about.jpg" alt="The QuadSAT team">
     </div>
   </main>
-
   <div id="finish"></div>
   <footer>
       <section class="footer1">
           <h3>ADDRESS</h3>
-            <p>
-              HCA Airport
-                <br>
-              Lufthavnvej 151
-                <br>
-              5270 Nordfyns
-                <br>
-              Denmark
-              </p>
-
+          <p>HCA Airport<br>
+            Lufthavnvej 151<br>
+            5270 Nordfyns<br>
+            Denmark
+            </p>
               <p> <i class="fas fa-phone" style="font-size:1.2rem;"></i>    sales@quadsat.com</p>
-
               <p> <i class="fas fa-envelope-open-text" style="font-size:1.2rem;"></i>   +45 49 49 49 94 </p>
       </section>
-
       <section class="footer2">
           <h3>SOCIAL MEDIA</h3>
           <p> <a href="https://www.facebook.com/quadsat" target="_blank"><i class="fab fa-facebook-square" style="font-size:1.2rem; color:white;"></i></a>    facebook.com/quadsat</p>
           <p> <a href="https://www.linkedin.com/company/quadsat/" target="_blank"><i class="fab fa-linkedin" style="font-size:1.2rem; color:white;"></i></a>   linkedin.com/company/quadsat</p>
       </section>
       <p style="font-size:0.7rem; text-align:center; color:white; clear:both;">Copyright QuadSAT © 2021 All rights reserved</p>
-  </footer></body>
+  </footer>
+</body>
 </html>

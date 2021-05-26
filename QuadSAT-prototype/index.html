@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,6 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <!---navigation -->
   <nav class="navbar">
     <ul class="navbar-nav">
       <li class="top nav-item">
@@ -37,14 +37,8 @@
       </li>
     </ul>
   </nav>
-
-  <!---Hero-img, burgerbar, logo -->
   <div class="mobile-top">
-    <!--     <div class="logo"></div>
-    <div class="burgerbar"></div> -->
   </div>
-
-  <!-- Top Navigation Menu -->
   <div class="topnav">
     <a href="index.html" class="active" style="background-color: #f2f3f7;"> <img src="img/QuadSAT-logo.png" alt="logo" class="logo"> </a>
     <div id="menupunkter">
@@ -58,7 +52,6 @@
     </a>
 
   </div>
-
   <div class="mobile-text">
     <br><br><h1>User guide</h1>
     <hr>
@@ -67,7 +60,7 @@
     <div class="web-top">
     </div>
   </div>
-  <!---main: indhold -->
+  <button onclick="topFunction();" type="button" id="toTopButton" title="Go to Top">To the Top</button>
   <div id="start"></div>
   <main>
     <div class="container">
@@ -90,13 +83,13 @@
           capabilities, you can purchase the QuadSAT solution.</p>
         </div>
         <div class="item item-two picture">
-          <video  width="100%" height="100%" loop="true" autoplay="autoplay" controls muted>
-          <source src="img/Demonstration-video..mov" type="video/mp4">
+          <video  autoplay="autoplay" controls loop muted>
+          <source src="img/Demonstration-video..mov" type="video/mp4"></video>
         </div>
-      </div>
+        </div>
       <div class="reveal">
         <div class="item item-three picture-three"></div>
-        <div id="drone"class="item item-four  textbox one">
+        <div id="drone" class="item item-four  textbox one">
           <br><br><h2>Drone</h2>
           <p>
             QuadSAT´s unique solution is an airborne antenna and tracking test
@@ -160,6 +153,7 @@
             mobile test-facility, it can operate anywhere in the world on
             antennas of all sizes.
           </p>
+        </div>
       </div>
     </div>
   </main>
@@ -167,21 +161,14 @@
   <footer>
       <section class="footer1">
           <h3>ADDRESS</h3>
-            <p>
-              HCA Airport
-                <br>
-              Lufthavnvej 151
-                <br>
-              5270 Nordfyns
-                <br>
-              Denmark
-              </p>
-
+          <p>HCA Airport<br>
+            Lufthavnvej 151<br>
+            5270 Nordfyns<br>
+            Denmark
+            </p>
               <p> <i class="fas fa-phone" style="font-size:1.2rem;"></i>    sales@quadsat.com</p>
-
               <p> <i class="fas fa-envelope-open-text" style="font-size:1.2rem;"></i>   +45 49 49 49 94 </p>
       </section>
-
       <section class="footer2">
           <h3>SOCIAL MEDIA</h3>
           <p> <a href="https://www.facebook.com/quadsat" target="_blank"><i class="fab fa-facebook-square" style="font-size:1.2rem; color:white;"></i></a>    facebook.com/quadsat</p>
