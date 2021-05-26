@@ -12,9 +12,6 @@ function burgermenu() {
   }
 }
 
-[ array ]
-
-
 
 
 
