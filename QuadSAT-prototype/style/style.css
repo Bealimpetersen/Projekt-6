@@ -406,6 +406,12 @@ footer{
     padding: 16px 0;
 
   }
+
+  #toTopButton {
+    bottom: 120px;
+    right: 15px;
+  }
+
   .top, .bottom{
     display: none;
   }
